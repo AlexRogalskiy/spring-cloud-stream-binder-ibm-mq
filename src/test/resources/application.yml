@@ -6,7 +6,7 @@ spring:
   jmx:
     enabled: false
 
-ibmmq:
+spring.cloud.stream.jms.ibmmq:
   host: ibmmq
   port: 1414
   username: mq

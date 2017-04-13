@@ -9,7 +9,7 @@ import com.ibm.msg.client.wmq.WMQConstants;
  *
  * @author Donovan Muller
  */
-@ConfigurationProperties(prefix = "ibmmq")
+@ConfigurationProperties(prefix = "spring.cloud.stream.jms.ibmmq")
 public class IBMMQConfigurationProperties {
 
 	private String host;

@@ -36,9 +36,9 @@ or the following configuration properties in a Spring Cloud Stream app:
 
 | Name          | Value                         | Configuration Property Example
 | ------------- | ----------------------------- | ----------------------------------------- |
-| Host          | `docker-machine ip default`   | ibmmq.host=`docker-machine ip default`    |
-| Port          | 1414                          | ibmmq.port=1414                           |
-| Queue Manager | LOCAL.DOCKER.QMGR             | ibmmq.queueManager=LOCAL.DOCKER.QMGR      |
-| Channel       | PASSWORD.SVRCONN              | ibmmq.channel=PASSWORD.SVRCONN            |
-| Username      | mq                            | ibmmq.username=mq                         |
-| Password      | mq                            | ibmmq.password=mq                         |
+| Host          | `docker-machine ip default`   | spring.cloud.stream.jms.ibmmq.host=`docker-machine ip default`    |
+| Port          | 1414                          | spring.cloud.stream.jms.ibmmq.port=1414                           |
+| Queue Manager | LOCAL.DOCKER.QMGR             | spring.cloud.stream.jms.ibmmq.queueManager=LOCAL.DOCKER.QMGR      |
+| Channel       | PASSWORD.SVRCONN              | spring.cloud.stream.jms.ibmmq.channel=PASSWORD.SVRCONN            |
+| Username      | mq                            | spring.cloud.stream.jms.ibmmq.username=mq                         |
+| Password      | mq                            | spring.cloud.stream.jms.ibmmq.password=mq                         |

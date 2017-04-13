@@ -26,7 +26,7 @@ public class IBMMQTestUtils {
 
 		Map<String, Object> mapObject = factoryBean.getObject();
 		Map<String, Object> ibmMQPropertyMap = (Map<String, Object>) mapObject
-				.get("ibmmq");
+				.get("spring.cloud.stream.jms.ibmmq");
 
 		IBMMQConfigurationProperties configurationProperties = new IBMMQConfigurationProperties();
 		configurationProperties.setHost((String) ibmMQPropertyMap.get("host"));
